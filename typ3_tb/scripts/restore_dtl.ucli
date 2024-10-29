@@ -1,0 +1,23 @@
+##--------------------------------------------------------------------------------
+## Copyright (c) Programmable Solutions Group (PSG),
+## Intel Corporation 2023.
+## All rights reserved.
+##--------------------------------------------------------------------------------
+## File name       : restore_dtl.ucli 
+## Date Created    : Thu 13 April 2023
+##--------------------------------------------------------------------------------
+## Description  :
+##     
+##    Required Config for the Restore mechanism in the DTL Flow 
+##
+##--------------------------------------------------------------------------------
+
+puts "################################################# start of restore_dtl.ucli ###########################################"
+restore ../SNPS_SAVE/simv_save_dt_n75
+set systemTime [clock seconds]
+echo "Restore simulation and current simulation time=$now [clock format $systemTime -format %H:%M:%S]\n"
+scope uvm_pkg.\uvm_phase::execute_phase
+call \$dtl_load
+call refresh_test
+run 
+

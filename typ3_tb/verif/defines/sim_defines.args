@@ -1,0 +1,1 @@
++FAST_INITIALIZE +apci_dbg_name=api,testcase,hang,os,os_more,mirror_log,equal,long_symtrk,skew,skp,dl_replay,credit,cxl_crd,api_exit,trk_scrambled,phy_msg_bus +timeout=5ms +cxp_fastsimtrain +UVM_VERBOSITY=UVM_MEDIUM +UVM_MAX_QUIT_COUNT=150,YES +UVM_TIMEOUT=10000000000,YES +UVM_INC_INTERNAL_RSRC

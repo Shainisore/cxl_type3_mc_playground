@@ -1,0 +1,168 @@
+Magic 271485
+Revision Verdi_T-2022.06-SP1-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1898 796 357 241
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 557962220041.250000
+cursor 503416112861.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 119
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "CXLIP_to_HDM_Interface" -e FALSE
+addSignal -h 15 /cxl_tb_top/dut/ed_top_wrapper_typ3_inst/ip2hdm_aximm0_awvalid
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_awid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_awaddr[51:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_awlen[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_awregion[3:0]
+addSignal -h 15 -holdScope ip2hdm_aximm0_awuser
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_awsize[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_awburst[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_awprot[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_awqos[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_awcache[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_awlock[1:0]
+addSignal -h 15 -holdScope ip2hdm_aximm0_wvalid
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_wdata[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_wstrb[63:0]
+addSignal -h 15 -holdScope ip2hdm_aximm0_wlast
+addSignal -h 15 -holdScope ip2hdm_aximm0_wuser
+addSignal -h 15 -holdScope ip2hdm_aximm0_bready
+addSignal -h 15 -holdScope ip2hdm_aximm0_arvalid
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_arid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_araddr[51:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_arlen[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_arregion[3:0]
+addSignal -h 15 -holdScope ip2hdm_aximm0_aruser
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_arsize[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_arburst[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_arprot[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_arqos[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_arcache[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm0_arlock[1:0]
+addSignal -h 15 -holdScope ip2hdm_aximm0_rready
+addSignal -h 15 -holdScope ip2hdm_aximm1_awvalid
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_awid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_awaddr[51:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_awlen[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_awregion[3:0]
+addSignal -h 15 -holdScope ip2hdm_aximm1_awuser
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_awsize[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_awburst[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_awprot[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_awqos[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_awcache[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_awlock[1:0]
+addSignal -h 15 -holdScope ip2hdm_aximm1_wvalid
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_wdata[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_wstrb[63:0]
+addSignal -h 15 -holdScope ip2hdm_aximm1_wlast
+addSignal -h 15 -holdScope ip2hdm_aximm1_wuser
+addSignal -h 15 -holdScope ip2hdm_aximm1_bready
+addSignal -h 15 -holdScope ip2hdm_aximm1_arvalid
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_arid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_araddr[51:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_arlen[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_arregion[3:0]
+addSignal -h 15 -holdScope ip2hdm_aximm1_aruser
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_arsize[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_arburst[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_arprot[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_arqos[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_arcache[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ip2hdm_aximm1_arlock[1:0]
+addSignal -h 15 -holdScope ip2hdm_aximm1_rready
+addGroup "Emif_avmm_interface" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /cxl_tb_top/dut/ed_top_wrapper_typ3_inst/MC_CHANNEL_INST[0]/mc_top/emif_amm_ready[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope emif_amm_read[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope emif_amm_write[1:0]
+addSignal -h 15 -holdScope emif_amm_address[1:0]
+addSignal -h 15 -holdScope emif_amm_writedata[1:0]
+addSignal -h 15 -holdScope emif_amm_burstcount[1:0]
+addSignal -h 15 -holdScope emif_amm_byteenable[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope emif_amm_readdatavalid[1:0]
+addSignal -h 15 -holdScope emif_amm_readdata[1:0]
+addGroup "DDR_mem_interface" -e FALSE
+addSignal -h 15 /cxl_tb_top/dut/mem_ck[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_reset_n[1:0]
+addSignal -h 15 -holdScope mem_a[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_act_n[1:0]
+addSignal -h 15 -holdScope mem_ba[1:0]
+addSignal -h 15 -holdScope mem_bg[1:0]
+addSignal -h 15 -holdScope mem_cke[1:0]
+addSignal -h 15 -holdScope mem_cs_n[1:0]
+addSignal -h 15 -holdScope mem_odt[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_par[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_oct_rzqin[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_alert_n[1:0]
+addSignal -h 15 -holdScope mem_dqs[1:0]
+addSignal -h 15 -holdScope mem_dbi_n[1:0]
+addSignal -expanded -h 15 -holdScope mem_dq[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_dq[1][71:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_dq[0][71:0]
+addSignal -h 15 -holdScope mem_ck_n[1:0]
+addSignal -h 15 -holdScope mem_dqs_n[1:0]
+addGroup "HDM_to_CXLIP_Interface"
+addSignal -h 15 /cxl_tb_top/dut/ed_top_wrapper_typ3_inst/hdm2ip_aximm0_awready
+addSignal -h 15 -holdScope hdm2ip_aximm0_wready
+addSignal -h 15 -holdScope hdm2ip_aximm0_bvalid
+addSignal -h 15 -UNSIGNED -HEX -holdScope hdm2ip_aximm0_bid[11:0]
+addSignal -h 15 -holdScope hdm2ip_aximm0_buser
+addSignal -h 15 -UNSIGNED -HEX -holdScope hdm2ip_aximm0_bresp[1:0]
+addSignal -h 15 -holdScope hdm2ip_aximm0_arready
+addSignal -h 15 -holdScope hdm2ip_aximm0_rvalid
+addSignal -h 15 -holdScope hdm2ip_aximm0_rlast
+addSignal -h 15 -UNSIGNED -HEX -holdScope hdm2ip_aximm0_rid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope hdm2ip_aximm0_rdata[511:0]
+addSignal -h 15 -holdScope hdm2ip_aximm0_ruser
+addSignal -h 15 -UNSIGNED -HEX -holdScope hdm2ip_aximm0_rresp[1:0]
+addSignal -h 15 -holdScope hdm2ip_aximm1_awready
+addSignal -h 15 -holdScope hdm2ip_aximm1_wready
+addSignal -h 15 -holdScope hdm2ip_aximm1_bvalid
+addSignal -h 15 -UNSIGNED -HEX -holdScope hdm2ip_aximm1_bid[11:0]
+addSignal -h 15 -holdScope hdm2ip_aximm1_buser
+addSignal -h 15 -UNSIGNED -HEX -holdScope hdm2ip_aximm1_bresp[1:0]
+addSignal -h 15 -holdScope hdm2ip_aximm1_arready
+addSignal -h 15 -holdScope hdm2ip_aximm1_rvalid
+addSignal -h 15 -holdScope hdm2ip_aximm1_rlast
+addSignal -h 15 -UNSIGNED -HEX -holdScope hdm2ip_aximm1_rid[11:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope hdm2ip_aximm1_rdata[511:0]
+addSignal -h 15 -holdScope hdm2ip_aximm1_ruser
+addSignal -h 15 -UNSIGNED -HEX -holdScope hdm2ip_aximm1_rresp[1:0]
+addGroup "G5"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

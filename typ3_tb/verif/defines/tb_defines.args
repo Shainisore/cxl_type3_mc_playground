@@ -1,0 +1,7 @@
++define+FULL_RESET \
++define+SIM_MC_RAM_INIT_W_ZERO_PARTIAL_ONLY \
++define+DDR_SIM_CFG_USE_MEM_MDL \
++define+DFC_HDM_CFG_USE_DDR \
++define+HDM_16G \
++define+ENABLE_DDR_DBI_PINS
+ 

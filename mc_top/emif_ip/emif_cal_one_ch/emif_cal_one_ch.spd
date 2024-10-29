@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_emif_cal_iossm_274/sim/altera_emif_cal_iossm.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_emif_cal_iossm_274" />
+ <file
+   path="altera_emif_cal_iossm_274/sim/altera_emif_f2c_gearbox.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_emif_cal_iossm_274" />
+ <file
+   path="altera_emif_cal_iossm_274/sim/emif_cal_one_ch_altera_emif_cal_iossm_274_yagv7fq_code.hex"
+   type="HEX"
+   library="altera_emif_cal_iossm_274" />
+ <file
+   path="altera_emif_cal_iossm_274/sim/emif_cal_one_ch_altera_emif_cal_iossm_274_yagv7fq_sim_global_param_tbl.hex"
+   type="HEX"
+   library="altera_emif_cal_iossm_274" />
+ <file
+   path="altera_emif_cal_iossm_274/sim/emif_cal_one_ch_altera_emif_cal_iossm_274_yagv7fq_sim_global_param_tbl.txt"
+   type="OTHER"
+   library="altera_emif_cal_iossm_274" />
+ <file
+   path="altera_emif_cal_iossm_274/sim/emif_cal_one_ch_altera_emif_cal_iossm_274_yagv7fq_synth_global_param_tbl.hex"
+   type="HEX"
+   library="altera_emif_cal_iossm_274" />
+ <file
+   path="altera_emif_cal_iossm_274/sim/emif_cal_one_ch_altera_emif_cal_iossm_274_yagv7fq_synth_global_param_tbl.txt"
+   type="OTHER"
+   library="altera_emif_cal_iossm_274" />
+ <file
+   path="altera_emif_cal_iossm_274/sim/emif_cal_one_ch_altera_emif_cal_iossm_274_yagv7fq_arch.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_emif_cal_iossm_274" />
+ <file
+   path="altera_emif_cal_iossm_274/sim/emif_cal_one_ch_altera_emif_cal_iossm_274_yagv7fq.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_emif_cal_iossm_274" />
+ <file
+   path="altera_emif_cal_274/sim/emif_cal_one_ch_altera_emif_cal_274_kaypsya.v"
+   type="VERILOG"
+   library="altera_emif_cal_274"
+   hasInlineConfiguration="true" />
+ <file
+   path="sim/emif_cal_one_ch.v"
+   type="VERILOG"
+   library="emif_cal_one_ch"
+   hasInlineConfiguration="true" />
+ <topLevel name="emif_cal_one_ch.emif_cal_one_ch" />
+ <deviceFamily name="agilex7" />
+ <device name="AGIB027R29A1E2VR3" />
+</simPackage>

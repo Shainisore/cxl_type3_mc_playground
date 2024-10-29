@@ -1,0 +1,16 @@
+
+WORK > DEFAULT
+DEFAULT:                   ./libraries/work/                     
+work:                      ./libraries/work/                     
+altera_emif_cal_iossm_274: ./libraries/altera_emif_cal_iossm_274/
+altera_emif_cal_274:       ./libraries/altera_emif_cal_274/      
+emif_cal_one_ch:           ./libraries/emif_cal_one_ch/          
+lpm_ver:                   ./libraries/lpm_ver/                  
+sgate_ver:                 ./libraries/sgate_ver/                
+altera_ver:                ./libraries/altera_ver/               
+altera_mf_ver:             ./libraries/altera_mf_ver/            
+altera_lnsim_ver:          ./libraries/altera_lnsim_ver/         
+tennm_ver:                 ./libraries/tennm_ver/                
+tennm_hssi_ver:            ./libraries/tennm_hssi_ver/           
+tennm_hssi_f1_ver:         ./libraries/tennm_hssi_f1_ver/        
+tennm_hssi_r1_ver:         ./libraries/tennm_hssi_r1_ver/        

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="fifo_1927/sim/rspfifo_fifo_1927_y5j447y.v"
+   type="VERILOG"
+   library="fifo_1927" />
+ <file
+   path="fifo_1927/sim/rspfifo_fifo_1927_y5j447y.sdc"
+   type="SDC_ENTITY"
+   library="fifo_1927" />
+ <file
+   path="sim/rspfifo.v"
+   type="VERILOG"
+   library="rspfifo"
+   hasInlineConfiguration="true" />
+ <topLevel name="rspfifo.rspfifo" />
+ <deviceFamily name="agilex7" />
+ <device name="AGIB027R29A1E2VR3" />
+</simPackage>

@@ -1,0 +1,19 @@
+##--------------------------------------------------------------------------------
+## Copyright (c) Programmable Solutions Group (PSG),
+## Intel Corporation 2023.
+## All rights reserved.
+##--------------------------------------------------------------------------------
+## File name       : save_dtl.ucli 
+## Date Created    : Thu 13 April 2023
+##--------------------------------------------------------------------------------
+## Description  :
+##     
+##    Required Config for the Save mechanism in the DTL Flow 
+##
+##--------------------------------------------------------------------------------
+#
+puts "################################################# start of save.ucli ###########################################"
+stop -condition {cxl_tb_top.start_save==1} -once -continue -command {run 0;cbug -detach;save ../SNPS_SAVE/simv_save_dt_n75;set systemTime [clock seconds];puts "saved simulation snapshot at time= $now [clock format $systemTime -format %H:%M:%S]";run}
+run
+quit
+

@@ -1,0 +1,82 @@
+Magic 271485
+Revision Verdi_P-2019.06-SP2-6
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 941 509 280 143
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 286596553328.370972
+cursor 574618338189.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 8
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "default_csr_avmm_interface"
+addSignal -h 15 /cxl_tb_top/dut/ed_top_wrapper_typ3_inst/ex_default_csr_top_inst/csr_avmm_clk
+addSignal -h 15 -holdScope csr_avmm_rstn
+addSignal -h 15 -holdScope csr_avmm_waitrequest
+addSignal -h 15 -holdScope csr_avmm_write
+addSignal -h 15 -holdScope csr_avmm_read
+addSignal -h 15 -holdScope csr_avmm_address[21:0]
+addSignal -h 15 -holdScope csr_avmm_writedata[31:0]
+addSignal -h 15 -holdScope csr_avmm_byteenable[3:0]
+addSignal -h 15 -holdScope csr_avmm_readdata[31:0]
+addSignal -h 15 -holdScope csr_avmm_readdatavalid
+addGroup "PIO_rx_st0_interface"
+addSignal -h 15 /cxl_tb_top/dut/ed_top_wrapper_typ3_inst/ed_rx_st0_sop_i
+addSignal -h 15 -holdScope ed_rx_st0_hvalid_i
+addSignal -h 15 -holdScope ed_rx_st0_header_i[127:0]
+addSignal -h 15 -holdScope ed_rx_st0_payload_i[255:0]
+addSignal -h 15 -holdScope ed_rx_st0_dvalid_i
+addSignal -h 15 -holdScope ed_rx_st0_eop_i
+addGroup "PIO_tx_st0_interface"
+addSignal -h 15 /cxl_tb_top/dut/ed_top_wrapper_typ3_inst/ed_tx_st0_sop_o
+addSignal -h 15 -holdScope ed_tx_st0_hvalid_o
+addSignal -h 15 -holdScope ed_tx_st0_header_o[127:0]
+addSignal -h 15 -holdScope ed_tx_st0_dvalid_o
+addSignal -h 15 -holdScope ed_tx_st0_payload_o[255:0]
+addSignal -h 15 -holdScope ed_tx_st0_eop_o
+addGroup "PIO_all_st_hvalid"
+addSignal -h 15 /cxl_tb_top/dut/ed_top_wrapper_typ3_inst/ed_rx_st0_hvalid_i
+addSignal -h 15 -holdScope ed_rx_st1_hvalid_i
+addSignal -h 15 -holdScope ed_rx_st2_hvalid_i
+addSignal -h 15 -holdScope ed_rx_st3_hvalid_i
+addSignal -h 15 -holdScope ed_tx_st0_hvalid_o
+addSignal -h 15 -holdScope ed_tx_st1_hvalid_o
+addSignal -h 15 -holdScope ed_tx_st2_hvalid_o
+addSignal -h 15 -holdScope ed_tx_st3_hvalid_o
+addGroup "G5"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+
